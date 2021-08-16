@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Show Trackr</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div>
+      <ul id="home1">
+          <li class="left" id="show">Show<b>Trackr</b></li>
+          <li class="left"><a id="home2" href="file:///home/pc/Desktop/Assignment01_Amshika/home.html">Home</a></li>
+          <li class="left"><a id="home2" href="file:///home/pc/Desktop/Assignment01_Amshika/add.html">Add</a></li>
+          <li class="right"><a id="home2" class="float" href="file:///home/pc/Desktop/Assignment01_Amshika/signup.html">Sign up</a></li>
+          <li class="right"><a id="home2" class="float" href="file:///home/pc/Desktop/Assignment01_Amshika/login.html">Login</a></li>
+        </ul>
+    </div>
+
+
+   <div class="container">
+
+		<div class="card">
+			<div class="card-header">
+				<h2 align="center"><b>Sign up</b></h2>
+     <div class="card-body">
+        <form  method="post"  name="form1" action="#">
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text"  class="form-control" name="username" placeholder="Name" required pattern="\w+.{5,}.[/\D/g]" title="Username should not contain numbers or symbols and must be largerthan 5 characters.">
+
+    </div>
+
+        <div class="input-group form-group">
+          <div class="input-group-prepend">
+             <span class="input-group-text"><i class="fas fa-at"></i></span>
+           </div>
+           <input type="text" name='email' class="form-control" placeholder="Email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address">
+         </div>
+
+         <div class="input-group form-group">
+          <div class="input-group-prepend">
+             <span class="input-group-text"><i class="fas fa-key"></i></span>
+           </div>
+
+           <input type="password" class="form-control" name="password" placeholder="Password" required  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+
+         </div>
+
+  <p align="center">
+          By clicking Sing up, you agree to <b>term & <br>
+          conditions</b> and <b>privacy policy</b>
+  </p>
+  <br>
+  <input type="button" name="button" id="submit" value="Sign Up">
+
+
+    </form>
+  <br>
+  <br>
+
+        <p align="center">
+                Already have an account? <b> Log in now</b>
+        </p>
+</div>
+</div>
+
+
+  </body>
+</html>

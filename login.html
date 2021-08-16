@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Show Trackr </title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+   <body>
+     <div>
+       <ul id="home1">
+           <li class="left" id="show">Show<b>Trackr</b></li>
+           <li class="left"><a id="home2" href="file:///home/pc/Desktop/Assignment01_Amshika/home.html">Home</a></li>
+           <li class="left"><a id="home2" href="file:///home/pc/Desktop/Assignment01_Amshika/add.html">Add</a></li>
+           <li class="right"><a id="home2" class="float" href="file:///home/pc/Desktop/Assignment01_Amshika/signup.html">Sign up</a></li>
+           <li class="right"><a id="home2" class="float" href="file:///home/pc/Desktop/Assignment01_Amshika/login.html">Login</a></li>
+
+
+       </ul>
+    </div>
+    <fieldset>
+      <form id="login-form">
+      <h1 align="center">Log in</h1>
+      <label for="email"></label>
+      <p align="center"><input id="email" type="email" name="email" placeholder="@ Emai" required><p>
+      <label for="password"></label>
+      <p align="center"><input id="password" type="password" name="password" placeholder="Password" required><p>
+      <input type="submit" value="Login" id="submit" onclick="checkOut()" >
+
+      <p align="center"><b>Forgot your password?</b></p>
+      <p align="center">Don't have an account yet?<a id="link" href="file:///home/pc/Desktop/Assignment01_Amshika/signup.html"> <b>sing up</b></a></p>
+      <div style="float:left; width: 40%;"><hr/></div>
+      <div style="float:right; width: 53%;"><hr/></div>
+          <b>or</b>
+          <div class="col">
+            <a href="#" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Sign in with Facebook
+             </a>
+             <a href="#" class="google btn">
+               <i class="fa fa-google fa-fw"> </i> Sign in with Google
+              </a>
+            </div>
+
+
+      </form>
+    </fieldset>
+
+    <script src="login.js"></script>
+    </body>
+    </html>

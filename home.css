@@ -1,0 +1,194 @@
+.nav{
+  background-color: rgb(232,232,232);
+  height: 50px;
+
+
+}
+
+#home2{
+  text-decoration: none;
+  color:black;
+}
+
+
+#nav1{
+  display:inline-block;
+  height: 50px;
+  padding: 0 15px;
+  line-height: 50px;
+
+}
+
+#nav1:hover{
+  background-color:rgb(255,255,255);
+  color:white;
+
+}
+
+h1{
+  letter-spacing: 7px
+}
+
+#letters{
+  background-color:rgb(232,232,232);
+  padding-bottom: 15px;
+  margin: 0 auto;
+}
+
+#include{
+  padding:bottom: 100px;
+  margin-bottom: 5px;
+  padding-left: 400px ;
+  border-radius: 9px;
+}
+
+
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+
+li{
+  background-color: rgb(169,169,169);
+  display: inline-block;
+  padding: 5px;
+  word-spacing: 4px;
+}
+
+li:hover{
+  background-color:rgb(97, 89, 89);
+  color:black;
+
+}
+.float{
+  float: right;
+}
+
+
+#shows{
+  width: 65%;
+  align:center;
+  background-color: rgb(255,255,255);
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 5px;
+
+}
+
+h3{
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+  margin: 0 auto;
+
+
+}
+
+
+#search3{
+  padding-bottom: 20px;
+}
+body{
+  background-color: rgb(176,176,176);
+}
+
+img{
+  padding: 10px;
+}
+
+#name1{
+  display: inline;
+
+}
+
+#search1{
+  float:right;
+
+}
+
+#name1{
+  display: inline;
+  padding-left: 20px;
+
+
+}
+
+#name2{
+  display: inline;
+  padding-left: 120px;
+}
+
+#name3{
+  display: inline;
+  padding-left: 155px;
+}
+
+#name4{
+  display:inline;
+  padding-left: 90px;
+}
+
+#search{
+  background-color:rgb(232,232,232);
+  padding-right: 10px;
+
+}
+
+
+
+
+
+ img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+}
+
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color:rgb(191, 193, 192  );
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+/*.btn.active {
+  background-color: #666;
+  color: white;
+}*/
+
+#myBtnContainer{
+  align: center;
+}
+.show {
+  display: block;
+}
+
+
+footer {
+  text-align: center;
+  position: bottom;
+  padding: 50px;
+  background-color: rgb(139, 139, 139 );
+  color: white;
+  font-size:30px;
+
+  text-align: center;
+
+}
+.highlight {
+  background-color: darkgray;
+
+}
+.underline{
+  background-color: darkgray;
+}
